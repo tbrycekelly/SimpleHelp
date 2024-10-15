@@ -1,7 +1,7 @@
 #' @title Trapezoidal Integration
 #' @author Thomas Bryce Kelly
 #' @export
-integrate.trapezoid = function(x, y, xlim = NULL) {
+trapezoidIntegration = function(x, y, xlim = NULL) {
 
   ## Perform checks
   if (length(x) != length(y)) { stop('Length of x and y are not equal!') }
